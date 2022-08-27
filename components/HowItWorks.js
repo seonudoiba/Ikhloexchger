@@ -35,8 +35,9 @@ const HowItWorks = () => {
         </div>
         <p className="text-center ">
           No, it&#39s not magic. We are Ikhloexchger and we make things happen in
-          real time.
+         <span>real time</span> .
         </p>
+        
       </div>
     </>
   );
