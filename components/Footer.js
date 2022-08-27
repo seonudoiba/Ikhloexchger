@@ -6,9 +6,9 @@ import {FaInstagram, FaTwitter, FaWhatsapp} from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className="mobile-res  text-white border-t-4 border-gray-300 border=t relative bg-green-500 z-0">
+    <footer className="mobile-res  text-gray-900 border-t-4 border-gray-300  relative bg-green-500 z-0">
       <div className="mobile-res px-6 pt-6">
-        <div className="mobile-res md:pl-16 p-4 pb-16 md:grid grid-cols-6 font-sans">
+        <div className="mobile-res md:pl-16  pb-16 md:grid grid-cols-6 font-sans">
           <div className=" col-span-4  ">
             <div className="font-bold pb-2 text-2xl mb-2">
               True love feels like Ikhloexchger
@@ -20,7 +20,7 @@ function Footer() {
               Money with Naira at best
             </p>
           </div>
-          <div className=" col-span-2 flex md:justify-end  ">
+          <div className=" col-span-2 pt-3 flex md:justify-end  ">
             <TradeNow />
           </div>
         </div>

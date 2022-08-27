@@ -38,7 +38,7 @@ export default function Home(posts) {
 
       <div />
       <div className="mobile-res bg-green-500 w-full  p-4 flex flex-row justify-center font-sans">
-        <div className="  md:grid grid-cols-2 gap-8  md:w-4/6 py-20">
+        <div className="  md:grid grid-cols-2 gap-8  md:w-4/6 py-8">
           <div className="md:col-span-2 font-bold md:text-xl text-center">
             Why Ikhloexchger?
           </div>
