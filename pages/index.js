@@ -9,7 +9,7 @@ import { BsFillChatLeftTextFill } from "react-icons/bs";
 import { FaTabletAlt } from "react-icons/fa";
 import { HiShieldCheck, HiUsers } from "react-icons/hi";
 import HowItWorks from "../components/HowItWorks";
-import Link from "next/link"
+import Link from "next/link";
 export default function Home(posts) {
   return (
     <div className="full-width">
