@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background-color: rgb(34 197 94);
+}
+*{
+  box-sizing: border-box;
+}
+.logo {
+  font-family: "Rubik Dirt", cursive;
+}
+.stickNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 20;
+  background-color: rgb(34 197 94);
+
+}
+
+.table_me {
+  width: 80%;
+  margin: 0 auto;
+}
+.main-bg {
+  background-image: url("../public/main.jpg");
+  background-repeat: no-repeat;
+  background-color: rgb(34 197 94);
+  background-size: cover;
+  max-width: 100%;
+  height: 38rem;
+  margin-inline:auto;
+}
+.icon-size {
+  font-size: 12rem;
+}
+.how-it-works{
+  margin-inline: auto;
+
+}
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 100% solid transparent;
+  border-bottom: 600px solid transparent;
+  
+  border-left: 100vmax solid rgb(34 197 94);
+  margin: 150px 0;
+}
+.full-width{
+  min-width: 400px
+  
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .icon-size {
+    font-size: 7rem;
+  }
+}
