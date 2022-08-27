@@ -6,7 +6,7 @@ function Table({ data }) {
     <div className="text-md bg-gray-50 border-2  px-32 py-4 ">
       <h1 className="text-center pt-4 font-bold text-3xl">Top Cryptocurrencies</h1>
       {/* //1st row */}
-      <div class="grid grid-cols-6 gap-4 my-8 p-4 border-b rounded-xl text-center font-bold bg-gray-200">
+      <div className="grid grid-cols-6 gap-4 my-8 p-4 border-b rounded-xl text-center font-bold bg-gray-200">
         <div>#</div>
         <div>Currency</div>
         <div>Price(USD)</div>
@@ -15,9 +15,9 @@ function Table({ data }) {
         <div></div>
       </div>
       {/* //2st row */}
-      <div class="grid grid-cols-6 text-center  mr-3 gap-4">
+      <div className="grid grid-cols-6 text-center  mr-3 gap-4">
         {/* ------------id---------------- */}
-        <div class="grid grid-rows gap-2 ">
+        <div className="grid grid-rows gap-2 ">
           {mydata.map(function (d, idx) {
             return (
               <div className="border-b rounded-xl font-bold bg-gray-100 py-2" key={idx}>
@@ -27,7 +27,7 @@ function Table({ data }) {
           })}
         </div>
         {/* ------------currency---------------- */}
-        <div class="grid grid-rows gap-2">
+        <div className="grid grid-rows gap-2">
           {mydata.map(function (d, idx) {
             return (
               <div className="border-b bg-gray-100 py-2" key={idx}>
@@ -37,7 +37,7 @@ function Table({ data }) {
           })}
         </div>
         {/* ------------Price---------------- */}
-        <div class="grid grid-rows gap-2">
+        <div className="grid grid-rows gap-2">
           {mydata.map(function (d, idx) {
             const n = d.quote.USD.price.toFixed(2);
             const numberFormatter = Intl.NumberFormat('en-US');
@@ -50,7 +50,7 @@ function Table({ data }) {
           })}
         </div>
          {/* ------------percent_change_24h---------------- */}
-        <div class="grid grid-rows gap-2">
+        <div className="grid grid-rows gap-2">
           {mydata.map(function (d, idx) {
             return (
               <div className={d.quote.USD.percent_change_24h >= 1? "text-green-700 p-1 border-b bg-gray-100 py-2": "text-red-700 p-1 border-b bg-gray-100 py-2"  } key={idx}>
@@ -60,7 +60,7 @@ function Table({ data }) {
           })}
         </div>
         {/* ------------Messagge---------------- */}
-        <div class="grid grid-rows gap-2">
+        <div className="grid grid-rows gap-2">
           {mydata.map(function (d, idx) {
             const n = d.quote.USD.market_cap.toFixed(1);
             const numberFormatter = Intl.NumberFormat('en-US');
@@ -73,7 +73,7 @@ function Table({ data }) {
           })}
         </div>
         {/* ------------Messagge---------------- */}
-        <div class="grid grid-rows text-right gap-2">
+        <div className="grid grid-rows text-right gap-2">
           {mydata.map(function (d, idx) {
             return (
               <div className=" py-2" key={idx}>
@@ -90,7 +90,7 @@ function Table({ data }) {
           })}
         </div>
         {/* ------------Messagge----------------
-        <div class="grid grid-rows gap-4">
+        <div className="grid grid-rows gap-4">
           {mydata.map(function (d, idx) {
             return (
               <div className="list-none" key={idx}>

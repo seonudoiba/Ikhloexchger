@@ -34,7 +34,7 @@ const HowItWorks = () => {
           Completion
         </div>
         <p className="text-center ">
-          No, it's not magic. We are Ikhloexchger and we make things happen in
+          No, it&#39s not magic. We are Ikhloexchger and we make things happen in
           real time.
         </p>
       </div>

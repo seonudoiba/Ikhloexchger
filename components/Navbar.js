@@ -22,9 +22,9 @@ function Navbar() {
   return (
     <nav className=" flex justify-between md:px-28   items-center stickNav ">
       <div>
-        <a href="/">
+        <Link href="/">
           <Brand />
-        </a>
+        </Link>
       </div>
 
       <div className=" flex justify-center items-center ">
@@ -39,12 +39,12 @@ function Navbar() {
           </span>
           <span className="px-6 hover:cursor-pointer py-2 font-bold md:hover:text-white hover:text-gray-400">
             <Link href="/Services">
-              <a>Services</a>
+              Services
             </Link>
           </span>
           <span className="pl-6 pr-2 hover:cursor-pointer py-2 font-bold md:hover:text-white hover:text-gray-400">
             <Link href="/Contact">
-              <a>Contact</a>
+              Contact
             </Link>
           </span>
         </div>

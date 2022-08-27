@@ -21,7 +21,7 @@ export default function Home(posts) {
         <div className="flex items-center justify-center pb-4 md:pb-8">
           <TradeNow />
           <button className="m-4 font-bold hover:text-gray-200">
-            <a href="/About">Learn More</a>
+            <Link href="/About">Learn More</Link>
           </button>
         </div>
         <div className="">
@@ -96,12 +96,12 @@ export default function Home(posts) {
                 handlePrice(price);
               }}
             >
-              <a href="https://wa.me/2349072709373?text=Helloo%20world">
+              <Link href="https://wa.me/2349072709373?text=Helloo%20world">
                 Trade Now
-              </a>
+              </Link>
             </button>
             <button className="m-4 font-bold text-white hover:text-gray-300">
-              <a href="/Services">See Our Rates</a>
+              <Link href="/Services">See Our Rates</Link>
             </button>
           </div>
         </div>

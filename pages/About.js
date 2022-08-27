@@ -34,7 +34,7 @@ const About = () => {
             </p>
             <p className="mt-4 text-gray-600">
               We have quickly peaked to being one the most reliable platforms
-              for our customer's day to day deals especially with our 24/7
+              for our customer&#39s day to day deals especially with our 24/7
               policy that allows for non- stop transaction all hours of the day.
               Here at JamestownNg, our principles are built on convenience,
               integrity, modernity, timeliness and customer satisfaction.
