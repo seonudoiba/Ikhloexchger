@@ -76,7 +76,7 @@ export default function Home(posts) {
         </div>
       </div>
       {/* //----------//////////------------------Message------- */}
-      <div class="mobile-res bg-green-500 w-full  p-4 flex justify-center font-sans">
+      <div className="mobile-res bg-green-500 w-full  p-4 flex justify-center font-sans">
         <div className=" bg-gray-800 rounded-xl bg-grey-light md:w-4/6 w-5/6 p-2">
           <div className="flex  justify-center text-white font-bold py-1">
             <h3 className="text-xl pt-12 ">Digital Funds</h3>
