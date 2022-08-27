@@ -85,17 +85,21 @@ const Converter = ({ data }) => {
           value={inputValue}
         />
       </div>
-      <div className='flex flex-col justify-center '>
+      <div className="flex flex-col justify-center ">
         <select
           className="text-center w-56 h-12 m-4  "
           value={selected2}
           onChange={handleChange2}
         >
-          <option className=""  value={1}>
+          <option className="" value={1}>
             Naira
           </option>
         </select>
-        <input type="text" className="text-center w-56 h-12 m-4 " value={inputValue2} />
+        <input
+          type="text"
+          className="text-center w-56 h-12 m-4 "
+          value={inputValue2}
+        />
       </div>
     </form>
   );

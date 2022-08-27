@@ -27,9 +27,9 @@ function Footer() {
 
         <div className="mobile-res grid lg:grid-cols-4 md:grid-cols-2">
           <div className="mb-6">
-            <a href="/" className="text-white">
+            <Link href="/" className="text-white">
               <Brand />
-            </a>
+            </Link>
           </div>
 
           <div className="mb-6">
@@ -37,14 +37,14 @@ function Footer() {
 
             <ul className="list-none mb-0">
               <li>
-                <a href="/Services" className="text-white">
+                <Link href="/Services" className="text-white">
                   Buying Crypto Assets
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/Services" className="text-white">
+                <Link href="/Services" className="text-white">
                   Selling Crypto Assets
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -54,24 +54,24 @@ function Footer() {
 
             <ul className="list-none mb-0">
               <li>
-                <a href="/About" className="text-white">
+                <Link href="/About" className="text-white">
                 About Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/Policy" className="text-white">
+                <Link href="/Policy" className="text-white">
                 Privacy Policy
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/Terms" className="text-white">
+                <Link href="/Terms" className="text-white">
                 Terms & Conditions
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/Contact" className="text-white">
+                <Link href="/Contact" className="text-white">
                 Contact Us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -81,19 +81,19 @@ function Footer() {
 
             <ul className="list-none md:w-1/2 w-2/6 mb-0 flex justify-between items-center">
               <li>
-                <a href="/" className="text-white">
+                <Link href="/" className="text-white">
                   <FaInstagram className="text-3xl"/>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/" className="text-white">
+                <Link href="/" className="text-white">
                   <FaTwitter className="text-3xl"/>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/" className="text-white">
+                <Link href="/" className="text-white">
                   <FaWhatsapp className="text-3xl"/>
-                </a>
+                </Link>
               </li>
               
             </ul>
@@ -102,9 +102,9 @@ function Footer() {
       </div>
       <div className="mobile-res text-black pb-12 text-center p-4">
        
-        © 2022 Copyright:   <span> <a className="" href="/">
+        © 2022 Copyright:   <span> <Link className="" href="/">
              Ikhloexchger
-        </a></span> 
+        </Link></span> 
       </div>
     </footer>
   );

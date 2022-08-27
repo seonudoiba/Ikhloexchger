@@ -34,7 +34,7 @@ function Navbar() {
         >
           <span className="px-6 hover:cursor-pointer py-2 font-bold md:hover:text-white hover:text-gray-400">
             <Link href="/About">
-              <a>About</a>
+              About
             </Link>
           </span>
           <span className="px-6 hover:cursor-pointer py-2 font-bold md:hover:text-white hover:text-gray-400">
