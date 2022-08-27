@@ -6,7 +6,7 @@ import {FaInstagram, FaTwitter, FaWhatsapp} from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className="mobile-res  text-gray-900 border-t-4 border-gray-300  relative bg-green-500 z-0">
+    <footer className="mobile-res  text-white font-xl border-t-4 border-gray-300  relative bg-green-500 z-0">
       <div className="mobile-res px-6 pt-6">
         <div className="mobile-res md:pl-16  pb-16 md:grid grid-cols-6 font-sans">
           <div className=" col-span-4  ">
