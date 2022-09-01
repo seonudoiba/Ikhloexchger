@@ -30,7 +30,7 @@ function Navbar() {
       <div className=" flex justify-center items-center ">
         <div
           id="Show"
-          className=" bg-gray-100  md:bg-transparent flex flex-col justify-center hidden md:block text-gray-900  text-md fixed top-20 px-10 rounded-xl right-5 md:static"
+          className=" bg-gray-100 nav-bar md:bg-transparent flex flex-col justify-center hidden md:block text-gray-900  text-md fixed top-12 pt-4 md:px-10 rounded-md md:right-5 md:static"
         >
           <span className="px-6 hover:cursor-pointer py-2 font-bold md:hover:text-white hover:text-gray-400">
             <Link href="/About">
